@@ -1,7 +1,7 @@
 n=int(input())
 sum=0
 pro=1
-num1=n
+temp=n
 while n>0:
     rem=n%10
     sum=sum+rem
