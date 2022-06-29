@@ -23,4 +23,4 @@ if l[1]-l[0]>0:
         else:
             print((n//2)-1)
     else:
-        print("-1")
+        print('-1')
