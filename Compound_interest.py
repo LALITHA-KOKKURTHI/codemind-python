@@ -1,3 +1,3 @@
-p,r,t=map(int,input().split())
-c=p*(1+(r/100))**t
-print('%.2f'%c)
+x,y,z=map(int,input().split())
+p=x*((1+y/100)**z)
+print("%.2f"%p)
