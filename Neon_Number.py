@@ -1,13 +1,12 @@
-num=int(input())
-sqr=num*num#square of num
-sumOfDigit=0
-
-#calculating sum of digits of sqr
-while sqr>0:
-    sumOfDigit=sumOfDigit+sqr%10
-    sqr=sqr//10
-    
-if(num==sumOfDigit):
-    print("Neon Number")
+a=int(input())
+c=a*a
+s=0
+while c!=0:
+    i=c%10
+    s+=i
+    c=c//10
+sum=int(s)
+if(a==sum):
+    print("Neon Number");
 else:
-    print("Not Neon Number")
+    print("Not Neon Number");
